@@ -1,5 +1,7 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
+using System.Drawing;
+using System.Xml.Linq;
 
 namespace LINQ01
 {
@@ -64,6 +66,20 @@ namespace LINQ01
 
 
             //m3ndesh category condiments bs 3ndi Spices & Condiments 3la b3d
+            #endregion
+            #region Q6. Create a new anonymous type with three properties: Name → the product name, Price → the unit price, StockStatus → a string: "Available" if UnitsInStock > 0,otherwise "Out of Stock", Print the result.
+            //var productStockStatus = Source.ProductList
+            //    .Select(p => new
+            //    {
+            //        Name = p.ProductName,
+            //        Price = p.UnitPrice,
+            //        StockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //    });
+            //foreach (var product in productStockStatus)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
             #endregion
 
 
