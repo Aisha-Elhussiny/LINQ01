@@ -103,6 +103,17 @@ namespace LINQ01
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Q9. Get all products from the "Beverages" category, sorted by  UnitsInStock descending. Print name and stock.
+            //var beveragesProducts = Source.ProductList
+            //    .Where(p => p.Category == "Beverages")
+            //    .OrderByDescending(p => p.UnitsInStock)
+            //    .Select(p => new { p.ProductName, p.UnitsInStock });
+
+            //foreach (var product in beveragesProducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
 
 
         }
