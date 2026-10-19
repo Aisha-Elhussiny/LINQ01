@@ -117,20 +117,29 @@ namespace LINQ01
             #endregion
 
             #region Q10. Using QUERY SYNTAX with a compound from clause, list  all orders placed in 1997 or later showing CustomerID and OrderDate.
-       //var orders = from customer in Source.CustomerList
-       //             from order in customer.Orders
-       //             where order.OrderDate.Year >= 1997
-       //             select new { order.OrderID, order.OrderDate };
+            //var orders = from customer in Source.CustomerList
+            //             from order in customer.Orders
+            //             where order.OrderDate.Year >= 1997
+            //             select new { order.OrderID, order.OrderDate };
 
-       //     foreach (var order in orders)
-       //     {
-       //         Console.WriteLine(order);
-       //     }
-
-
+            //     foreach (var order in orders)
+            //     {
+            //         Console.WriteLine(order);
+            //     }
 
 
 
+
+
+
+            #endregion
+            #region Q11. Show position number alongside ProductName
+            //var productNamesWithPosition = Source.ProductList
+            //    .Select((p, index) => new { Position = index + 1, Name = p.ProductName });
+            //foreach (var product in productNamesWithPosition)
+            //{
+            //    Console.WriteLine($"{product.Position}. {product.Name}");
+            //}
 
             #endregion
 
