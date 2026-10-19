@@ -143,6 +143,17 @@ namespace LINQ01
 
             #endregion
 
+            #region Q12. Sort first by-word length and then by a case -insensitive sort of the words in an array.
+            //String [] Arr = {"aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry"};
+            //var sortedWords = Arr
+            //    .OrderBy(word => word.Length)
+            //    .ThenBy(word => word.ToLower());
+            //foreach (var word in sortedWords)
+            //{
+            //    Console.WriteLine(word);
+            //}
+            //howa hna hyrtbhom 3la 7asab el length b3d kda hyrtbhom 3la 7asab el case-insensitive sort
+            #endregion
 
         }
     }
