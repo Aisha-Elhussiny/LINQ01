@@ -82,6 +82,16 @@ namespace LINQ01
 
             #endregion
 
+            #region Q7. Print each product's name along with its position (1-based) in the list. Expected format: 1.Chai, 2.Chang, etc.
+            //var productNamesWithPosition = Source.ProductList
+            //    .Select((p, index) => new { Position = index + 1, Name = p.ProductName });
+            //foreach (var product in productNamesWithPosition)
+            //{
+            //    Console.WriteLine($"{product.Position}. {product.Name}");
+            //}
+
+            //3mlt el print gwa el for kda 3shan el output yb2a zay el expected format
+            #endregion
 
 
         }
