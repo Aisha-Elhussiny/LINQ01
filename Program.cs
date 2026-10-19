@@ -15,7 +15,7 @@ namespace LINQ01
 
             //foreach (var product in seafoodProducts)
             //{
-            //    Console.WriteLine($"{product.ProductName} - {product.UnitPrice}");
+            //    Console.WriteLine(product);
             //}
 
             #endregion
@@ -26,6 +26,17 @@ namespace LINQ01
             // .ToList();
 
             //foreach (var product in productNames)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
+            #region Q3. Sort all products by UnitPrice (ascending). Print each product's name and price.
+            //var seafoodProducts = from product in Source.ProductList
+            //                      where product.Category == "Seafood"
+            //                      orderby product.UnitPrice ascending
+            //                      select new { product.ProductName, product.UnitPrice };
+
+            //foreach (var product in seafoodProducts)
             //{
             //    Console.WriteLine(product);
             //}
