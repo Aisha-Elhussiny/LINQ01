@@ -1,8 +1,10 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Numerics;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace LINQ01
 {
@@ -153,6 +155,21 @@ namespace LINQ01
             //    Console.WriteLine(word);
             //}
             //howa hna hyrtbhom 3la 7asab el length b3d kda hyrtbhom 3la 7asab el case-insensitive sort
+            #endregion
+            #region Q13. Create a list of all digits in the array whose second letter is 'i' that is reversed from the order in the original array.
+            //var Arr = new string[] { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            //var digitsWithSecondLetterI = Arr
+            //    .Where(word => word.Length > 1 && word[1] == 'i')
+            //    .Reverse()
+            //    .ToList();
+            //foreach (var digit in digitsWithSecondLetterI)
+            //{
+            //    Console.WriteLine(digit);
+            //}
+
+            //atmna ab2a fahma elso2al sah.
+            //rbna yostr
+
             #endregion
 
         }
