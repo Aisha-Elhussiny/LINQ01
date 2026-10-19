@@ -41,6 +41,21 @@ namespace LINQ01
             //    Console.WriteLine(product);
             //}
             #endregion
+
+            #region Q4. Get all products where UnitPrice is between 10 and 30
+            //var productsInRange = Source.ProductList
+            //    .Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30)
+            //    .Select (p => new { p.ProductName, p.UnitPrice })  ;
+            //foreach (var product in productsInRange)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+
+            #endregion
+
+
+
         }
     }
 }
