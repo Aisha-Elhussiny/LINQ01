@@ -93,6 +93,17 @@ namespace LINQ01
             //3mlt el print gwa el for kda 3shan el output yb2a zay el expected format
             #endregion
 
+            #region Q8. Sort ProductList by Category ascending, then within each   category, sort by UnitPrice descending.
+            //var sortedProducts = Source.ProductList
+            //    .OrderBy(p => p.Category)
+            //    .ThenByDescending(p => p.UnitPrice)
+            //    .Select(p => new { p.ProductName, p.Category, p.UnitPrice });
+            //foreach (var product in sortedProducts)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
+
 
         }
     }
